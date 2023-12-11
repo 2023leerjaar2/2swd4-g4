@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <img src="Foto voor website/logo.png" alt="Logo" class="logo">
+    <div class="nav-elements">
+      <a href="#">Home</a>
+      <a href="#">Recepten</a>
+      <a href="#">Kookboeken</a>
+      <a href="#">Over ons</a>
+    </div>
+    <div class="login">
+      <button>Login</button>
+    </div>
+  </div>
+</header>
+
+ <main>
+  <section class="banner">
+  <img src="Foto voor website/bbq_foto_home_page.jpg" alt="banner" width="100%" height="900px">
+</section>
+
+<section>
+  <div class="styled-line"></div>
+  <div class="center-text">Populairste Recepten</div>
+  <div class="styled-line"></div>
+</section>
+
+<section class="recepten">
+  <div class="recipe-box">
+    <img class="recipe-img" src="eten/havermout recept.jpg" alt="Recept 1">
+    <div class="recipe-name">Groente met rijst</div>
+  </div>
+
+  <div class="recipe-box">
+    <img class="recipe-img" src="eten/yogurht met fruit.jpg" alt="Recept 2">
+    <div class="recipe-name">Fruit smoothie</div>
+  </div>
+
+  <div class="recipe-box">
+    <img class="recipe-img" src="eten/mini burgers.jpg" alt="Recept 3">
+    <div class="recipe-name">Mini burger</div>
+  </div>
+
+  <div class="recipe-box">
+    <img class="recipe-img" src="eten/steek.jpg" alt="Recept 4">
+    <div class="recipe-name">Steek</div>
+  </div>
+
+  <div class="recipe-box">
+    <img class="recipe-img" src="eten/burger enn patat.jpg" alt="Recept 5">
+    <div class="recipe-name">Burger en Friet</div>
+  </div>
+
+  <div class="recipe-box">
+    <img class="recipe-img" src="eten/bami.jpg" alt="Recept 6">
+    <div class="recipe-name">Lasagne</div>
+  </div>
+</section>
+ 
+<section>
+  <div class="styled-line"></div>
+  <div class="center-text">kook boek</div>
+  <div class="styled-line"></div>
+</section>
+
+<section class="kookboek">
+  <div class="advert-container">
+    <div class="book-image">
+      <img src="eten/kookboek.jpg" alt="Kookboek Cover" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div class="book-summary">
+      <h1>Ontdek een Culinaire Wereld met Ons Nieuwe Kookboek!</h1>
+      <p>Laat je smaakpapillen dansen met onze heerlijke en eenvoudig te bereiden recepten. Van smaakvolle voorgerechten tot verrukkelijke desserts, ons kookboek biedt een uitgebreide verzameling gerechten voor elke culinaire liefhebber. Elke pagina is gevuld met inspiratie om jouw kookavontuur naar nieuwe hoogten te tillen.</p>
+      <p>Ontvang nu jouw exemplaar en dompel jezelf onder in de kunst van de gastronomie!</p>
+      <button class="buy-button" onclick="window.location.href='koop-pagina.html'">Koop Nu</button>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="slideshow-container">
+    <div class="mySlides">
+      <img class="slide-img" src="eten/bami.jpg" alt="Maaltijd 1">
+      <div class="slide-text">
+        <div class="slide-title">Pasta Carbonara</div>
+      </div>
+    </div>
+  
+    <div class="mySlides">
+      <img class="slide-img" src="eten/burger enn patat.jpg" alt="Maaltijd 2">
+      <div class="slide-text">
+        <div class="slide-title">Gegrilde Zalm met Citroen</div>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img class="slide-img" src="eten/havermout recept.jpg" alt="Maaltijd 2">
+      <div class="slide-text">
+        <div class="slide-title">Gegrilde Zalm met Citroen</div>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img class="slide-img" src="eten/mini burgers.jpg" alt="Maaltijd 2">
+      <div class="slide-text">
+        <div class="slide-title">Gegrilde Zalm met Citroen</div>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img class="slide-img" src="eten/pannekoeken.jpg" alt="Maaltijd 2">
+      <div class="slide-text">
+        <div class="slide-title">Gegrilde Zalm met Citroen</div>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img class="slide-img" src="eten/steek.jpg" alt="Maaltijd 2">
+      <div class="slide-text">
+        <div class="slide-title">Gegrilde Zalm met Citroen</div>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img class="slide-img" src="eten/steek.jpg" alt="Maaltijd 2">
+      <div class="slide-text">
+        <div class="slide-title">Gegrilde Zalm met Citroen</div>
+      </div>
+    </div>
+  
+    <!-- Voeg hier de overige slides toe -->
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <script src="slide.js"></script>
+  </div>
+</section>
+
+
+<footer class="foot">
+  <div class="footer-container">
+    <div class="company-info">
+      <h2>Ons Bedrijf</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    
+    <div class="contact-info">
+      <h2>Contactgegevens</h2>
+      <p>Adres: Straatnaam 123, Plaats</p>
+      <p>Email: info@bedrijf.com</p>
+      <p>Telefoon: +31 123 456 789</p>
+    </div>
+
+    <div class="social-media">
+      <h2>Volg Ons</h2>
+      <ul>
+        <li><a href="#" target="_blank"><img src="socilas/facebook.png" alt="Facebook"></a></li>
+        <li><a href="#" target="_blank"><img src="socilas/instagram.png" alt="instagram"></a></li>
+        <li><a href="#" target="_blank"><img src="socilas/linkedin.png" alt="linkedin"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+ 
+</main>
+</body>
+</html>

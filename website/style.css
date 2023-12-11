@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+  }
+
+  .nav-elements {
+    display: flex;
+  }
+
+  .nav-elements a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+  }
+
+  .login button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .center-text {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .styled-line {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+    border-top: 1px solid #000;
+  }
+
+  .recipe-box {
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+  }
+
+  .recipe-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .recepten{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .kookboek {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+    background-color: #f7f7f7;
+  }
+
+  .advert-container {
+    display: flex;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .book-image {
+    flex: 1;
+  }
+
+  .book-summary {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .book-summary h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .book-summary p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .buy-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .buy-button:hover {
+    background-color: #45a049;
+  }
+
+  .slide {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .slide-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .slide-text {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .slide-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 0;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 0;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+
+  .foot {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .company-info,
+  .contact-info,
+  .social-media {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .company-info h2,
+  .contact-info h2,
+  .social-media h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
