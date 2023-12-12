@@ -99,3 +99,23 @@ body {
     margin-right: 10px;
   }
   
+
+
+  .over {
+    flex: 1 1 48%; /* Hiermee wordt 48% van de viewport breedte ingenomen */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.tekst_over {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.kees {
+    flex: 1 1 48%; /* Hiermee wordt 48% van de viewport breedte ingenomen */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
