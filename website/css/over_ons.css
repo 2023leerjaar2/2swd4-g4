@@ -100,22 +100,32 @@ body {
   }
   
 
-
-  .over {
-    flex: 1 1 48%; /* Hiermee wordt 48% van de viewport breedte ingenomen */
-    background-color: #f0f0f0;
+  .over-ons {
+    display: flex;
+    justify-content: center; /* Centreer horizontaal */
+    align-items: center; /* Centreer verticaal */
+    height: 100vh; /* Volledige schermhoogte */
     padding: 20px;
 }
 
-.tekst_over {
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.6;
+.tekst {
+    flex: 1; /* Laat de tekst het beschikbare ruimte innemen */
+    text-align: left;
+    padding: 20px;
 }
 
-.kees {
-    flex: 1 1 48%; /* Hiermee wordt 48% van de viewport breedte ingenomen */
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.tekst h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.afbeelding {
+    flex: 1; /* Laat de afbeelding het beschikbare ruimte innemen */
+    text-align: center;
+}
+
+.afbeelding img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optioneel: voeg afgeronde hoeken toe aan de afbeelding */
 }
