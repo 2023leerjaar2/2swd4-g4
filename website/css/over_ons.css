@@ -129,3 +129,19 @@ body {
     height: auto;
     border-radius: 8px; /* Optioneel: voeg afgeronde hoeken toe aan de afbeelding */
 }
+
+
+.samenwerken {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.samen {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  text-align: center;
+}
