@@ -137,6 +137,7 @@ body {
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .samen {
@@ -144,4 +145,10 @@ body {
   border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
   text-align: center;
+}
+
+
+.samenwerklogo{
+  
+  width: 70%;
 }
