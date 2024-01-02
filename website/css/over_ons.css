@@ -102,14 +102,14 @@ body {
 
   .over-ons {
     display: flex;
-    justify-content: center; /* Centreer horizontaal */
-    align-items: center; /* Centreer verticaal */
-    height: 100vh; /* Volledige schermhoogte */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
     padding: 20px;
 }
 
 .tekst {
-    flex: 1; /* Laat de tekst het beschikbare ruimte innemen */
+    flex: 1;
     text-align: left;
     padding: 20px;
 }
@@ -120,12 +120,13 @@ body {
 }
 
 .afbeelding {
-    flex: 1; /* Laat de afbeelding het beschikbare ruimte innemen */
+    flex: 1; 
     text-align: center;
 }
 
 .afbeelding img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px; /* Optioneel: voeg afgeronde hoeken toe aan de afbeelding */
+    border-radius: 8px;
 }
+
