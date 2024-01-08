@@ -61,7 +61,7 @@
   
   .book-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     margin-top: 300px;
   }
   
@@ -90,8 +90,6 @@
   }
 
  
-
-
   .foot {
     font-family: Arial, sans-serif;
     margin: 0;
