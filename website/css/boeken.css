@@ -90,6 +90,30 @@
   }
 
  
+  .recept {
+    display: flex;
+    flex-direction: row; /* Dit is de standaardwaarde, maar voor duidelijkheid */
+    align-items: center; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.recept h2 {
+    color: #555;
+    margin-left: 20px;
+}
+.recept p {
+    color: #777;
+    margin-left: 20px;
+}
+.recept img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+
+
   .foot {
     font-family: Arial, sans-serif;
     margin: 0;
